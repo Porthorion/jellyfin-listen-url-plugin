@@ -2,7 +2,7 @@ using System;
 using MediaBrowser.Controller.Entities;
 using MediaBrowser.Controller.Entities.Audio;
 
-namespace Jellyfin.Plugin.Template;
+namespace Jellyfin.Plugin.ListenUrl;
 
 /// <summary>
 /// Implementation of <see cref="IDownloadUrlBuilder"/> that returns a custom

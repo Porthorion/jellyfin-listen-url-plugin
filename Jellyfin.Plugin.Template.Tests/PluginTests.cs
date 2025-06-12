@@ -1,11 +1,11 @@
 using System;
 using System.IO;
-using Jellyfin.Plugin.Template;
+using Jellyfin.Plugin.ListenUrl;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Model.Serialization;
 using Xunit;
 
-namespace Jellyfin.Plugin.Template.Tests;
+namespace Jellyfin.Plugin.ListenUrl.Tests;
 
 public class PluginTests
 {

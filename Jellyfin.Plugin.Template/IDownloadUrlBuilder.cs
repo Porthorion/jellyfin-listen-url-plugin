@@ -1,6 +1,6 @@
 using MediaBrowser.Controller.Entities;
 
-namespace Jellyfin.Plugin.Template;
+namespace Jellyfin.Plugin.ListenUrl;
 
 /// <summary>
 /// Service that builds download URLs for items.
