@@ -284,7 +284,7 @@ This example expects you to clone `jellyfin`, `jellyfin-web` and `jellyfin-plugi
             {
                 // Copy the plugin dll to the jellyfin plugin install path
                 // This command copies every .dll from the build directory to the plugin dir
-                // Usually, you probablly only need ${config:pluginName}.dll
+                // Usually, you probably only need ${config:pluginName}.dll
                 // But some plugins may bundle extra requirements
                 "label": "copy-dll",
                 "type": "shell",
@@ -352,7 +352,7 @@ This example expects you to clone `jellyfin`, `jellyfin-web` and `jellyfin-plugi
             {
                 // Copy the plugin dll to the jellyfin plugin install path
                 // This command copies every .dll from the build directory to the plugin dir
-                // Usually, you probablly only need ${config:pluginName}.dll
+                // Usually, you probably only need ${config:pluginName}.dll
                 // But some plugins may bundle extra requirements
                 "label": "copy-dll",
                 "type": "shell",
