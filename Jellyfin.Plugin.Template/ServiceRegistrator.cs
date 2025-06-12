@@ -2,7 +2,7 @@ using MediaBrowser.Controller;
 using MediaBrowser.Controller.Plugins;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Jellyfin.Plugin.Template;
+namespace Jellyfin.Plugin.ListenUrl;
 
 /// <summary>
 /// Registers plugin services with the Jellyfin server.

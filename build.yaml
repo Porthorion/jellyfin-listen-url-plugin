@@ -1,16 +1,17 @@
 ---
-name: "Template"
-guid: "eb5d7894-8eef-4b36-aa6f-5d124e828ce1"
-version: "1.0.0.0"
+name: "Listen URL"
+guid: "f7f33b15-a6cf-42a7-813d-169f458cf6e0"
+version: "0.1.0.0"
 targetAbi: "10.9.0.0"
 framework: "net8.0"
-overview: "Short description about your plugin"
+overview: "Provide simple /listen URLs for audio streams"
 description: >
-  This is a longer description that can span more than one
-  line and include details about your plugin.
+  Changes the URL copied from the **Copy Stream** button to a
+  short `/listen/<item_id>` format. Requires using a reverse
+  proxy to handle the `/listen` endpoint.
 category: "General"
 owner: "jellyfin"
 artifacts:
-- "Jellyfin.Plugin.Template.dll"
+- "Jellyfin.Plugin.ListenUrl.dll"
 changelog: >
-  changelog
+  Initial release

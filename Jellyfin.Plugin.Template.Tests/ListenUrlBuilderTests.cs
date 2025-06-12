@@ -1,10 +1,10 @@
 using System;
-using Jellyfin.Plugin.Template;
+using Jellyfin.Plugin.ListenUrl;
 using MediaBrowser.Controller.Entities.Audio;
 using MediaBrowser.Controller.Entities;
 using Xunit;
 
-namespace Jellyfin.Plugin.Template.Tests;
+namespace Jellyfin.Plugin.ListenUrl.Tests;
 
 public class ListenUrlBuilderTests
 {
